@@ -1,0 +1,17 @@
+---
+title: (TIL) 2024-11-01
+date: 2024-11-01 00:00:00
+categories: [캠프, TIL (Today I Learned)]
+tags:
+  [
+    캠프, JavaSciript
+  ]
+---
+
+블로그를 작성하면서 좀더 글에 감미를 주기 위해 마크다운 사용법에 대해서 알아보았다.
+작성은 아래 글에 별도로 정리.
+
+다음 TIL작성글 부터 조금식 적용해보고자 한다.
+
+
+[마크다운 사용법](https://daltube.github.io/posts/markdown/)
