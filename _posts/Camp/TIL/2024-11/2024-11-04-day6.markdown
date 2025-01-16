@@ -10,7 +10,7 @@ tags:
 
 # JavaScript
 
-//주석은 JS엔진이 해석하지 않음
+<!-- //주석은 JS엔진이 해석하지 않음
 //메모리에 저장한다. 읽어들여서 재사용한다. 변수.
 
 
@@ -417,4 +417,4 @@ for(const value of mySet.values()){
     console.log(value);
 }
 
-
+ -->
