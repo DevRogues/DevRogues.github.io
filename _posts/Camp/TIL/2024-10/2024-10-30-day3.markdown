@@ -8,7 +8,7 @@ tags:
   ]
 ---
 
-![alt text](image-1.png)
+<!-- ![alt text](image-1.png) -->
 
 **ISSA - Infrastructure-as-a-Service**
 -서비스형 인프라  

@@ -13,7 +13,7 @@ tags:
 
 1. **발단**  
   - 과제를 진행 하던 도중에 서버 호출을 2번 하는 현상을 확인.
-      ![alt text](../../../../assets/img/til/image-1.png)
+      <!-- ![alt text](../../../assets/img/til/image-1.png) -->
 
 2. **분석**
   - 소켓 통신시 서버에서 우선으로 호출되는 부분에 console.log를 찍어서 확인을 해보았지만  위 사진과 같은 현상을 확인.
@@ -68,7 +68,7 @@ tags:
       }
       ```
   - 아래 그림처럼 생각과 다른 결과 값이 출력되었다.
-      ![alt text](../../../../assets/img/til/image.png)  
+      <!-- ![alt text](../../../../assets/img/til/image.png)   -->
 
 3. **결과**
   - await는 Promise 객체를 실행하고 기다리지만, 지금 내 코드에서는 handler 함수를 Promise의 배열을 반환하게만 할 뿐, 실행이 되진 않았기 때문에 결과 값에 pending 상태의 Promise 배열만 남아있게 된 것으로 생각된다. 그래서 handler함수를 호출하는 부분을 async/await를 추가로 넣었더니 해결되었다.
@@ -81,4 +81,4 @@ tags:
         return;
       }
       ```
-      ![alt text](../../../../assets/img/til/12183.png)
+      <!-- ![alt text](../../../../assets/img/til/12183.png) -->
